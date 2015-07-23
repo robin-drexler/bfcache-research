@@ -8,3 +8,4 @@
 | Safari 8.07 Desktop      | Yes | - | -|
 | Firefox 39 Desktop      | Yes | - | -|
 | Opera 30 Desktop      | No | No | No|
+| Chrome 43 Desktop      | No | No | No|

@@ -24,8 +24,11 @@
    <button id="action">Click to change page state</button>
 
    <script>
-   window.addEventListener('beforeunload', function() {
-     return "¯\_(ツ)_/¯"
+   window.addEventListener('beforeunload', function(e) {
+     console.log('sdfsfds');
+     var confirmationMessage = "¯\_(ツ)_/¯";
+     e.returnValue = confirmationMessage;
+     return confirmationMessage;
    });
     document.getElementById('action').addEventListener('click', function() {
       document.getElementById('placeholder').classList.add('visible');
